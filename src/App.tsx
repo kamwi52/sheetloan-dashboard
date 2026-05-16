@@ -66,7 +66,10 @@ export default function App() {
             <div className="h-12 w-12 rounded-full border-r-4 border-l-4 border-accent animate-pulse"></div>
           </div>
         </div>
-        <p className="mt-8 text-xl font-bold tracking-widest text-primary animate-pulse uppercase">Initializing SheetLoan</p>
+        <div className="mt-8 space-y-3 text-center">
+          <p className="text-2xl font-bold tracking-tight text-foreground uppercase">SheetLoan</p>
+          <p className="text-lg font-semibold tracking-widest text-primary animate-pulse uppercase">Initializing</p>
+        </div>
       </div>
     )
   }
