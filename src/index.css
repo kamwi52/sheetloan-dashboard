@@ -89,61 +89,11 @@
   h4 {
     @apply text-xl font-semibold;
   }
-  
-  p, span, div {
-    font-weight: 400;
-  }
-  
-  strong, b, [class*='font-bold'] {
-    font-weight: 700;
-  }
-  
-  [class*='font-semibold'] {
-    font-weight: 600;
-  }
-  
-  [class*='font-medium'] {
-    font-weight: 500;
-  }
 }
 
 @layer components {
   /* Card Enhancements */
-  [role="checkbox"]~label,
   .card {
     @apply shadow-md border-border/60;
-  }
-
-  /* Button Enhancements */
-  button {
-    @apply font-semibold transition-all duration-200;
-  }
-
-  button:hover {
-    @apply shadow-md;
-  }
-
-  /* Badge Enhancements */
-  [class*='badge'] {
-    @apply font-semibold tracking-wide;
-  }
-
-  /* Input Enhancements */
-  input, textarea, select {
-    @apply font-normal;
-  }
-
-  input::placeholder, textarea::placeholder {
-    @apply text-muted-foreground/60;
-  }
-
-  /* Link Enhancements */
-  a {
-    @apply font-medium text-primary hover:text-primary/80 transition-colors;
-  }
-
-  /* Text Enhancements */
-  .text-muted-foreground {
-    @apply opacity-85;
   }
 }
