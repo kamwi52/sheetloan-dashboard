@@ -3,17 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint:css": "stylelint \"src/**/*.css\" --fix --quiet",
-    "lint:js": "eslint . --ext ts,tsx --report-unused-disable-directives",
-    "lint:types": "tsc --noEmit",
-    "check:css-vars": "node scripts/check-css-variables.js",
-    "check:css-classes": "node scripts/check-css-classes.js",
-    "lint": "bun run lint:types && bun run lint:js && bun run lint:css && bun run check:css-vars && bun run check:css-classes"
-  },
+
   "devDependencies": {
     "typescript": "~5.9.3",
     "vite": "^7.2.4"

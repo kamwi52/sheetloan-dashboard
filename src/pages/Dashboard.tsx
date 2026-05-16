@@ -38,7 +38,7 @@ export function Dashboard() {
   }
 
   return (
-    <Page className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+    <Page className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8 w-full">
       <PageHeader>
         <div className="space-y-2">
           <PageTitle className="text-4xl font-extrabold tracking-tight text-foreground">Overview</PageTitle>

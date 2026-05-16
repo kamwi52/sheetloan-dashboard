@@ -46,12 +46,14 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
           </div>
         </Sidebar>
       </AppShellSidebar>
-      <AppShellMain>
+      <AppShellMain className="overflow-x-visible">
         <div className="md:hidden flex items-center gap-2 px-4 h-16 border-b border-border bg-background">
           <MobileSidebarTrigger />
           <span className="font-bold text-lg text-primary">SheetLoan</span>
         </div>
-        {children}
+        <div className="w-full overflow-x-auto">
+          {children}
+        </div>
       </AppShellMain>
     </AppShell>
   )
